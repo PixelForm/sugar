@@ -10,5 +10,5 @@ for( ; index < textualElements.length; index++ ) {
 
     const closest = textualElements[index].parentElement?.querySelector('[est-readtime]')
 
-    if( closest ) closest.textContent = `${Math.round( duration )}`
+    if( closest ) closest.textContent = duration < 1 ? '1' : `${Math.round( duration )}`
 }
