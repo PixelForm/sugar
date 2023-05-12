@@ -10,7 +10,7 @@ export default defineConfig({
             entry: path.resolve( __dirname, 'src/main.ts' ),
             name: 'sugarReadtime',
             formats: [ 'iife' ],
-            fileName: 'index.js'
+            fileName: () => 'readtime.js'
         }
     }
 })
