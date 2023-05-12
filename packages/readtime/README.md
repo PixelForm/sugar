@@ -1,0 +1,2 @@
+# Read time calculations
+Calculate the read time for an HTML element. Created for use within Webflow but easy to use anywhere else. This little library depends on read-time-estimate which does the initial calculation for the read time.

@@ -1,0 +1,20 @@
+{
+  "name": "read-time",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/read-time-estimate": "^0.0.0",
+    "read-time-estimate": "^0.0.3"
+  }
+}
